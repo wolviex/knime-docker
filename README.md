@@ -1,4 +1,4 @@
-# KNIME (latest/4.4.1) + Java 11 (1.8.0) OpenJDK + Maven 3.6 + Python 3.6 + PIP3 20 + npm 7 + node 16 + Gradle 6 + X11 (Desktop)
+# KNIME (latest/5.2.2) + Java 11 (1.8.0) OpenJDK + Maven 3.6 + Python 3.6 + PIP3 20 + npm 7 + node 16 + Gradle 6 + X11 (Desktop)
 
 [![](https://images.microbadger.com/badges/image/openkbs/knime-docker.svg)](https://microbadger.com/images/openkbs/knime-docker "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/openkbs/knime-docker.svg)](https://microbadger.com/images/openkbs/knime-docker "Get your own version badge on microbadger.com")
 
