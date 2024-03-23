@@ -13,7 +13,7 @@ ARG PRODUCT=${PRODUCT:-knime}
 ENV PRODUCT=knime
 ENV WORKSPACE=${HOME}/workspace
 
-ARG PRODUCT_VERSION=${PRODUCT_VERSION:-4.4.1}
+ARG PRODUCT_VERSION=${PRODUCT_VERSION:-latest52}
 ENV PRODUCT_VERSION=${PRODUCT_VERSION}
 
 ARG PRODUCT_DIR=${PRODUCT_DIR:-knime_${PRODUCT_VERSION}}
@@ -31,7 +31,8 @@ ENV INSTALL_BASE=${INSTALL_BASE}
 ## --- Product Version specific ---
 # ENV DOWNLOAD_URL=https://download.knime.org/analytics-platform/linux/knime_4.2.2.linux.gtk.x86_64.tar.gz
 # ENV DOWNLOAD_URL=https://download.knime.org/analytics-platform/linux/knime-latest-linux.gtk.x86_64.tar.gz
-ENV DOWNLOAD_URL=https://download.knime.org/analytics-platform/linux/${PRODUCT}_${PRODUCT_VERSION}.linux.gtk.x86_64.tar.gz
+# ENV DOWNLOAD_URL=https://download.knime.org/analytics-platform/linux/knime-latest52-linux.gtk.x86_64.tar.gz
+ENV DOWNLOAD_URL=https://download.knime.org/analytics-platform/linux/${PRODUCT}-${PRODUCT_VERSION}-linux.gtk.x86_64.tar.gz
 
 WORKDIR ${INSTALL_BASE}
 
